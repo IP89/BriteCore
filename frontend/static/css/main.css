@@ -1,0 +1,20 @@
+.risk-type-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.field-name {
+  font-size: 14px;
+}
+
+.field-value-text {
+  width: 200px;
+}
+
+.field-value-date {
+  width: 100px;
+}
+
+.field-value-number {
+  width: 50px;
+}

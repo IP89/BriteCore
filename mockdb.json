@@ -1,0 +1,111 @@
+{
+  "risk_types": [
+    {
+      "id": 1,
+      "name": "Car Insurance",
+      "fields": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "House Insurance",
+      "fields": [3, 4]
+    }
+  ],
+  "fields": [
+    {
+      "id": 1,
+      "name": "Risk Level",
+      "type_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Car Purchase Date",
+      "type_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Address",
+      "type_id": 3
+    },
+    {
+      "id": 4,
+      "name": "Most valuable item",
+      "type_id": 4
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "type": "number"
+    },
+    {
+      "id": 2,
+      "type": "date"
+    },
+    {
+      "id": 3,
+      "type": "text"
+    },
+    {
+      "id": 4,
+      "type": "enum"
+    },
+    {
+      "id": 5,
+      "type": "text"
+    },
+    {
+      "id": 6,
+      "type": "text"
+    },
+    {
+      "id": 7,
+      "type": "text"
+    }
+  ],
+  "enums": [
+    {
+      "id": 1,
+      "selected_index": 1,
+      "subtype_ids": [5, 6, 7],
+      "type_id": 4
+    }
+  ],
+  "numbers": [
+    {
+      "id": 1,
+      "value": 7.5,
+      "type_id": 1
+    }
+  ],
+  "texts": [
+    {
+      "id": 1,
+      "value": "Oxford Street, 1, London",
+      "type_id": 3
+    },
+    {
+      "id": 2,
+      "value": "TV",
+      "type_id": 5
+    },
+    {
+      "id": 3,
+      "value": "Diamond Necklace",
+      "type_id": 6
+    },
+    {
+      "id": 4,
+      "value": "Gold Watch",
+      "type_id": 7
+    }
+  ],
+  "dates": [
+    {
+      "id": 1,
+      "value": "2016-05-10",
+      "type_id": 2
+    }
+  ]
+
+}
